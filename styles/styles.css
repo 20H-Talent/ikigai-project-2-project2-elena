@@ -1,0 +1,82 @@
+
+/* Global Layout Set-up */
+
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+}
+
+.card, 
+.phone {
+    margin-top: 75px;
+}
+
+.color-header-footer {
+    background-color: #ffb3ff;
+}
+
+footer {
+    font-size: 3em;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+hr {
+    margin: 200px 20px 0px 20px;
+}
+
+.left {
+    width:50%;
+    text-align: left;
+    float: left;
+    padding: 40px 20px;
+}
+
+.link {
+    color: black;
+    text-decoration-line: none;
+    font-weight: bold;
+}
+
+main {
+    background-color: #ccffcc;
+}
+
+.padding-wrapper {
+    padding: 35px;
+}
+
+.profile div {
+    width: auto;
+    background-color: #cc8800;
+    margin: 0px 130px 0px 130px;
+}
+
+.profile_img img  {
+    width: 50%;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.right {
+    width:50%;
+    float: right;
+    text-align: right;
+    padding: 40px 20px;
+}
+.section {
+    padding-top: 75px;
+    padding-bottom: 35px;
+}
+
+.top {
+    background-color: white;
+    margin-top: 10px;
+    padding: 25px;
+    font-weight: bold;
+}

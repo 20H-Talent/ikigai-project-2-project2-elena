@@ -7,45 +7,64 @@
         <meta name="keywords" content="Elena,Alonso,Developer, Java, JavaScript">
         <meta name="author" content="Elena Alonso">
         <link rel="stylesheet" href="styles/styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     </head>
 
     <body>
-        <header>
-            <h1>Elena Alonso</h1>
+        <header class="color-header-footer padding-wrapper">
+            <h1 id="top" class="padding-wrapper">Elena Alonso Morales</h1>
             <nav>
-                <ul>
-                    <li>Home</li>
-                    <li>Portfolio</li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
+                <div>
+                    <div class="top">HOME</div>
+                    <div class="top"><a class="link" href="#portfolio">PORTFOLIO</a></div>
+                    <div class="top"><a class="link" href="#contact">CONTACT</a></div>
+                </div>
             </nav>
 
         </header>
         <main class="">
-            <img src="images/responsive-layout-profile.png" title="profile_photo" class="">
-            <p>Hi! I'm a front end developer who loves responsive</p>
-            <div class="">
-                <h2>PORTFOLIO</h2>
-            </div>
-            <div class="card">
-                <a href=""><!--Blog??-->
-                  <img src="images/portfolio-1.png" title="Marketing_Page" alt="Marketing" class="">
-                </a>
-                <h3>Marketing Page</h3>
-                <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
+            <div class="color-header-footer profile padding-wrapper">
+                <div class="profile_img">
+                    <img src="images/Ele_perfil2.png" title="Elena Alonso" alt="Ele">
+                </div>
+                    <p class="padding-wrapper">Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in application development at IES El Rincón and am exited to put all my skills to use!</p>
             </div>
 
+            <div id="portfolio" class="section">
+                <h2>PORTFOLIO</h2>
+            
+                <div class="card">
+                    <a href=""><!--Blog??-->
+                    <img src="images/portfolio-1.png" title="Marketing_Page" alt="Marketing" class="">
+                    </a>
+                    <h2>Marketing Page</h2>
+                    <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
+                </div>
+                <div class="card">
+                    <a href=""><!--Rincon Page-->
+                    <img src="images/portfolio-2.png" title="Marketing_Page" alt="Marketing" class="">
+                    </a>
+                    <h2>Search Page</h2>
+                    <p>This project searches through a specific database to find information that the user is trying to look up.</p>
+                </div>
+            </div>
+            <div class="color-header-footer section">
+                <h3 id="contact" class="padding-wrapper">CONTACT</h3>
+                    <p>If you are interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
+                    <br/>
+                    <p>Phone: <b>(+34) 646 67 59 10</b></p>
+                    <br/>
+                    <p>Email: 
+                        <a class="link" href="mailito:elena.alonso.morales@gmail.com?Subject=Hello!" title="Send mail"><b>elena.alonso.morales@gmail.com</b></a>
+                    </p>
+                    <hr>
+            </div>
         </main>
         <footer>
-            <h3 id="contact">Contact</h3>
-            <p>If you are interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
-            <p>Phone: (+34) 646 67 59 10</p>
-            <p></p>
-            <p>Email: 
-                <a href="mailito:elena.alonso.morales@gmail.com?Subject=Hello!" title="Send mail">elena.alonso.morales@gmail.com</a>
-            </p>
             <!--hidden menu-->
+            <div class="left color-header-footer"><b>Elena Alonso</b></div>
+            <div class="right color-header-footer"><a class="link" href="#top">BACK TO TOP</a></div>
         </footer>
     </body>
 </html>
