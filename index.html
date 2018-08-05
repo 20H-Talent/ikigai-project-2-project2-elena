@@ -13,58 +13,106 @@
 
     <body>
         <header class="color-header-footer padding-wrapper">
-            <h1 id="top" class="padding-wrapper">Elena Alonso Morales</h1>
-            <nav>
-                <div>
-                    <div class="top">HOME</div>
-                    <div class="top"><a class="link" href="#portfolio">PORTFOLIO</a></div>
-                    <div class="top"><a class="link" href="#contact">CONTACT</a></div>
-                </div>
-            </nav>
-
+            <div class="head">
+                <h1 id="top" class="padding-wrapper">Elena Alonso</h1>
+                <nav>
+                    <div>
+                        <div class="top"><a class="link" href="#top">HOME</a></div>
+                        <div class="top"><a class="link" href="#portfolio">PORTFOLIO</a></div>
+                        <div class="top"><a class="link" href="#contact">CONTACT</a></div>
+                    </div>
+                </nav>
+            </div>
         </header>
-        <main class="">
-            <div class="color-header-footer profile padding-wrapper">
-                <div class="profile_img">
+        
+        <main>
+            <div id="profile" class="section">
+                <div id="profile-img-wrapper">
                     <img src="images/Ele_perfil2.png" title="Elena Alonso" alt="Ele">
                 </div>
-                    <p class="padding-wrapper">Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in application development at IES El Rincón and am exited to put all my skills to use!</p>
+                <div class="card">
+                    <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in application development at IES El Rincón and am exited to put all my skills to use!</p>
+                </div>
             </div>
-
             <div id="portfolio" class="section">
                 <h2>PORTFOLIO</h2>
             
-                <div class="card">
-                    <a href=""><!--Blog??-->
-                    <img src="images/portfolio-1.png" title="Marketing_Page" alt="Marketing" class="">
-                    </a>
-                    <h2>Marketing Page</h2>
-                    <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
-                </div>
-                <div class="card">
-                    <a href=""><!--Rincon Page-->
-                    <img src="images/portfolio-2.png" title="Marketing_Page" alt="Marketing" class="">
-                    </a>
-                    <h2>Search Page</h2>
-                    <p>This project searches through a specific database to find information that the user is trying to look up.</p>
-                </div>
+                <!--<div class="projects">-->
+                    <div class="card">
+                        <a href=""><!--Blog??-->
+                        <img src="images/portfolio-1.png" title="Marketing_Page" alt="Marketing">
+                        </a>
+                        <h2>Marketing Page</h2>
+                        <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
+                    </div>
+                    <div class="card">
+                        <a href=""><!--Rincon Page-->
+                        <img src="images/portfolio-2.png" title="Marketing_Page" alt="Marketing">
+                        </a>
+                        <h2>Search Page</h2>
+                        <p>This project searches through a specific database to find information that the user is trying to look up.</p>
+                    </div>
+                    <div class="card">
+                        <a href="">
+                        <img src="images/portfolio-3.png" title="Travel_App" alt="Tavel App">
+                        </a>
+                        <h2>Travel App</h2>
+                        <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
+                    </div>
+                    <div class="card">
+                        <a href="">
+                        <img src="images/portfolio-6.png" title="Map" alt="Map">
+                        </a>
+                        <h2>Map of Favourite Spots</h2>
+                        <p>This project uses mapping apis to plot points for my favourite spots in the city for a do-it-yourself walking tour.</p>
+                    </div>
+                    <div class="card">
+                        <a href="">
+                        <img src="images/portfolio-5.png" title="Photo_Gallery" alt="Photo Gallery">
+                        </a>
+                        <h2>Photo Gallery</h2>
+                        <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
+                    </div>
+                    <div class="card">
+                        <a href="">
+                        <img src="images/portfolio-4.png" title="Calculator" alt="Calculator">
+                        </a>
+                        <h2>Calculator</h2>
+                        <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
+                    </div>
+                <!--</div>-->
             </div>
-            <div class="color-header-footer section">
-                <h3 id="contact" class="padding-wrapper">CONTACT</h3>
+            <div id="contact" class="section">
+                <h2>CONTACT</h2>
+                
+                <div class="card">    
                     <p>If you are interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
                     <br/>
                     <p>Phone: <b>(+34) 646 67 59 10</b></p>
                     <br/>
                     <p>Email: 
                         <a class="link" href="mailito:elena.alonso.morales@gmail.com?Subject=Hello!" title="Send mail"><b>elena.alonso.morales@gmail.com</b></a>
-                    </p>
-                    <hr>
+                    </p>  
+                </div>                
             </div>
         </main>
-        <footer>
+        <footer class="color-header-footer">
+            <hr>
             <!--hidden menu-->
-            <div class="left color-header-footer"><b>Elena Alonso</b></div>
-            <div class="right color-header-footer"><a class="link" href="#top">BACK TO TOP</a></div>
+            <div class="default_bottom_menu">
+                <div class="left button-wrapper"><b>Elena Alonso</b></div>
+                <div class="right button-wrapper"><a class="link" href="#top">BACK TO TOP</a></div>
+            </div>
+            <div class="bottom_menu">
+                <div class="left button-wrapper"><b>Elena Alonso</b></div> 
+                
+                    <div class="right button-wrapper">
+                        <div class="button-wrapper-link"><a class="link_bottom" href="#top">HOME</a></div>
+                        <div class="button-wrapper-link"><a class="link_bottom" href="#portfolio">PORTFOLIO</a></div>
+                        <div class="button-wrapper-link"><a class="link_bottom" href="#contact">CONTACT</a></div>
+                    </div>
+                
+            </div>
         </footer>
     </body>
 </html>
