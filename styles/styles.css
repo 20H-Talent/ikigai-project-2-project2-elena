@@ -26,10 +26,6 @@
     background-color:#ffb3ff;
 }
 
-.bottom_menu {
-    visibility: hidden;
-}
-
 footer {
     background-color: #ffb3ff;
     padding: 1em 20px 0 20px;
@@ -42,6 +38,11 @@ h1 {
 
 h2 {
     padding: 35px 0px;
+}
+
+header .nav_menu {
+    visibility: hidden;
+    height: 0;
 }
 
 hr {
@@ -72,6 +73,10 @@ hr {
 
 main {
     background-color: #ccffcc;
+}
+
+.nav_menu {
+    visibility: hidden;
 }
 
 .padding-wrapper {
@@ -115,28 +120,12 @@ main {
 }
 
 /* Media Queries */
-@media (min-width: 769px) and (max-width: 1023px) {
+@media screen and (min-width: 769px) {
 
     * {
         font-size: 1.1em;
         overflow: auto;
     }
-
-    .bottom_menu {
-        visibility: visible;
-    }
-
-    /*.bottom_menu nav div {
-        text-align: right;
-        width: 60%;
-        float: right;
-        position: relative;
-        font-size: 1em;
-    }*/
-
-    /*.bottom_menu nav div:nth-child(2) {
-        margin-right: 20%;
-    }*/
 
     .button-wrapper-link {
         width: 33%;
@@ -176,6 +165,10 @@ main {
         width:40%;
     }
 
+    .nav_menu {
+        visibility: visible;
+    }
+
     #profile {
         display: block;
     }
@@ -211,6 +204,21 @@ main {
     }
 }
 
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
     
+    .card {
+        width: 32%;
+    }
+
+    .head {
+        visibility: hidden;
+        height: 0;
+    }
+
+    header .nav_menu {
+        visibility: visible;
+        float: left;
+        height: auto;
+    }
+
 }
